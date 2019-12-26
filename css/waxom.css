@@ -1218,7 +1218,7 @@ background: linear-gradient(to right bottom, transparent 51%, #362f2d 51%) left 
 		height: 690px;
 	}
 	.brands__img{
-		width: 25%;
+		width: 100px;
 		margin: 0 50px 80px;
 	}
 	.iphone__img{
