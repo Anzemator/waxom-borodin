@@ -702,7 +702,7 @@ background: linear-gradient(to right bottom, transparent 51%, #362f2d 51%) left 
 	background-image: url('../img/brands.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	max-height: 490px;
+	max-height: auto;
 	padding: 100px 0;
 	;
 }
@@ -1215,11 +1215,15 @@ background: linear-gradient(to right bottom, transparent 51%, #362f2d 51%) left 
 		width: 300px;
 	}
 	.brands{
-		height: 690px;
+		height: auto;
 	}
 	.brands__img{
-		width: 100px;
+		width: auto;
+		height: auto;
 		margin: 0 50px 80px;
+	}
+	.brands__img img{
+
 	}
 	.iphone__img{
 		width: 80%;
