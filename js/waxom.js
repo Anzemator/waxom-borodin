@@ -1,3 +1,27 @@
+$(document).ready(function() {
+ $('.categories__item[filter]').click(function(){
+    if($(this).attr('filter')=='all'){
+        if($(this).attr('val')=='off'){
+            $('.categories__item[filter]').attr('val', 'off');
+            $(this).attr('val', 'on');
+            $('.project-card').show(200);
+        }
+    }else 
+    if($(this).attr('val')=='off'){
+      $('.categories__item[filter]').attr('val', 'off');
+      $(this).attr('val', 'on');
+      $('.project-card').hide(200);
+      var filter = $(this).attr('filter');
+      $('.project-card[filter='+filter+']').show(200);
+    }
+ })
+});
+$('.project__btn').on("click", function() {
+  $(".hiden__card:hidden").slice(0, 3).slideDown();
+  if($('.hiden__card:hidden').length===0){
+    $('.project__btn').fadeOut();
+  }
+});
 $('.slider').slick({
 	infinite: true,
 	dots: true,
