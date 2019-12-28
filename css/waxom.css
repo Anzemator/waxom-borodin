@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, button, span{
 	line-height: 1em;
 }
 h3{
-	font-family: "Raleway Semibold";
+	font-family: "Raleway Semibold", "Raleway Bold";
 	color: #555555;
 }
 p{
@@ -116,6 +116,12 @@ button:focus{
 	border-radius: 4px;
 	border: 0px;
 	border-bottom: 3px solid #736357;
+}
+.title__button:hover{
+	background-color: #fff;
+	color: #998675;
+	border-bottom: 2px solid #e7d1be;
+	cursor: pointer;
 }
 .slider{
 	width: 100%;
@@ -305,6 +311,7 @@ button:focus{
 	color: #fff;
 	background-color: #998675;
 	margin-right: 30px;
+	cursor: pointer;
 }
 .btn:hover{
 	background-color: #fff;
