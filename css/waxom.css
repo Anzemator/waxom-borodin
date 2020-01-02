@@ -383,7 +383,7 @@ button:focus{
 	transform: translate(-50%, -50%);
 }
 .project__icons{
-	margin-right: 30px;
+	margin: 0 15px;
 }
 .project__icons:hover{
 	color: #c7b298;
